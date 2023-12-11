@@ -1,3 +1,5 @@
+let ナベアツの素 = 0
+let _3の倍数 = 0
 input.onButtonPressed(Button.AB, function () {
     ナベアツの素 = randint(1, 9)
     _3の倍数 = 3
@@ -13,6 +15,3 @@ input.onButtonPressed(Button.AB, function () {
         basic.showIcon(IconNames.Happy)
     }
 })
-let _3の倍数 = 0
-let ナベアツの素 = 0
-basic.showString("NABEATU")
